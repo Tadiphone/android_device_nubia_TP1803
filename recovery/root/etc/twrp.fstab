@@ -5,7 +5,7 @@
 /vendor		ext4	/dev/block/bootdevice/by-name/vendor					flags=display="Vendor";backup=0;wipeingui
 /vendor_image	emmc	/dev/block/bootdevice/by-name/vendor
 /metadata	ext4	/dev/block/bootdevice/by-name/metadata
-/data		ext4	/dev/block/bootdevice/by-name/userdata
+/data		f2fs	/dev/block/bootdevice/by-name/userdata
 /firmware	vfat	/dev/block/bootdevice/by-name/modem					flags=display="Firmware";fsflags=ro
 /misc		emmc	/dev/block/bootdevice/by-name/misc
 /modem		emmc	/dev/block/bootdevice/by-name/modem					flags=backup=1;display="Modem"
